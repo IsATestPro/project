@@ -1,6 +1,6 @@
 #include	<signal.h>
 #include	"ourhdr.h"
-
+//b1分支的更改
 static volatile sig_atomic_t	sigflag;
 								/* set nonzero by signal handler */
 static sigset_t			newmask, oldmask, zeromask;

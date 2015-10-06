@@ -1,7 +1,7 @@
 #include	"unpthread.h"
 
 static void	*doit(void *);		/* each thread executes this function */
-
+//b3 verify
 int
 main(int argc, char **argv)
 {
